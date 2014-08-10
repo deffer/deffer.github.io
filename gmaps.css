@@ -1,0 +1,42 @@
+TABLE.data TD {
+	border: 1px solid gray;
+	vertical-align: middle;
+}
+
+TABLE.data TR.row1 TD {
+	background-color: #CCCCCC;
+}
+
+TABLE.data TR.row0 TD {
+	background-color: #EEEEEE;
+}
+
+TABLE.data TH {	
+	background-color:#4C6382;
+	background:url(overlay45.png) repeat-x center #4C6382;
+	color: #fff;
+	border: 1px solid gray;
+	text-align: center;
+	padding:2px;
+}
+
+TABLE.data TH A,
+TABLE.data TH A:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+TABLE.data TH A:hover {
+    color: #00f;
+    text-decoration: underline;
+}
+
+TABLE.data {
+    border: 1px solid gray;
+	border-collapse: collapse;
+}
+
+.floatleft {
+	float:left;
+	cursor: pointer; cursor: hand; 
+}
